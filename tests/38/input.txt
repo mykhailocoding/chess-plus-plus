@@ -1,0 +1,17 @@
+auto
+auto
+move d4
+move e5
+move e5
+history 2
+move f4
+history
+move c5
+move e5
+move dxe5
+move rxe5
+history
+move fxe5
+move ne6
+history
+quit

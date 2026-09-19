@@ -1,0 +1,26 @@
+GAME
+
+turns: 10000
+mana: 500/10000
+
+White (Elo = 675)
+{
+  PEXP, P, PEXP, P, 3xPEXP, PEXP
+  K, B, Q, R, N, R, B, Q
+}
+
+Black (Elo = 513)
+{
+  PNRV, P, PEXP, P, 4xPEXP
+  K, Q, N, R, R, N, B, B
+}
+
+Squares
+{
+  G6:
+    - name: SPAWN
+    - list: SHIELD
+  F3:
+    - name: SPAWN
+    - list: SHIELD
+}

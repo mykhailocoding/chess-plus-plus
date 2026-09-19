@@ -1,0 +1,21 @@
+GAME
+
+turns: 10000
+mana: 1000/10000
+
+White (Elo = 4323)
+{
+  8xP
+  K, N, B, Q, QFLP, QFLP, B, QFLP
+}
+
+Black (Elo = 4325)
+{
+  8xP
+  N, K, B, QFLP, B, B, QFLP, N
+}
+
+Squares
+{
+  
+}

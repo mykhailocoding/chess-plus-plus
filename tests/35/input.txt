@@ -1,0 +1,13 @@
+auto
+auto
+info P
+info PPP
+info
+info K
+info N
+info PIPT
+info RPNT
+info BCLR
+info QFLP
+info QHNGR
+quit

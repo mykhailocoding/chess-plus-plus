@@ -1,0 +1,8 @@
+auto
+auto
+board board
+board
+move d4
+board
+move e5
+quit

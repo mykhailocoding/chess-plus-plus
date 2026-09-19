@@ -1,0 +1,106 @@
+> ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+>                 Welcome To Chess++
+> ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+> Where do you want to place KARC (1 remaining)?
+? White > 
+< auto
+> Where do you want to place KARC (1 remaining)?
+? Black > 
+< auto
+>                     Chessboard
+> ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+> Turn 1 / 10000
+> 
+> Black mana: 1000/10000
+> 
+> 8 [48;5;223m [1;38;5;16m♚ka[0m[48;5;94m [1;38;5;16m♛qj[0m[48;5;223m [1;38;5;16m♝bp[0m[48;5;94m [1;38;5;16m♞nj[0m[48;5;223m [1;38;5;16m♜ri[0m[48;5;94m [1;38;5;16m♞ni[0m[48;5;223m [1;38;5;16m♝b [0m[48;5;94m [1;38;5;16m♛q [0m
+> 7 [48;5;94m [1;38;5;16m♟p![0m[48;5;223m [1;38;5;16m♟p-[0m[48;5;94m [1;38;5;16m♟p+[0m[48;5;223m [1;38;5;16m♟pi[0m[48;5;94m [1;38;5;16m♟pg[0m[48;5;223m [1;38;5;16m♟p [0m[48;5;94m [1;38;5;16m♟p [0m[48;5;223m [1;38;5;16m♟p [0m
+> 6 [48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m
+> 5 [48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m
+> 4 [48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m
+> 3 [48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m
+> 2 [48;5;223m [1;38;5;247m♟P![0m[48;5;94m [1;38;5;247m♟P-[0m[48;5;223m [1;38;5;247m♟P+[0m[48;5;94m [1;38;5;247m♟Pi[0m[48;5;223m [1;38;5;247m♟Pg[0m[48;5;94m [1;38;5;247m♟P [0m[48;5;223m [1;38;5;247m♟P [0m[48;5;94m [1;38;5;247m♟P [0m
+> 1 [48;5;94m [1;38;5;247m♚Ka[0m[48;5;223m [1;38;5;247m♛Qh[0m[48;5;94m [1;38;5;247m♛Qf[0m[48;5;223m [1;38;5;247m♝Bc[0m[48;5;94m [1;38;5;247m♜Rp[0m[48;5;223m [1;38;5;247m♞N [0m[48;5;94m [1;38;5;247m♝B [0m[48;5;223m [1;38;5;247m♛Q [0m
+>     A   B   C   D   E   F   G   H
+> 
+> White mana: 1001/10000
+> ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+> 
+? White > 
+< info P
+> === Info =========================================
+> [P | ♟p] Pawn
+> Description: Can move forwards and capture diagonally.
+> Special: None
+> ==================================================
+> 
+? White > 
+< info PPP
+> [ERROR] Invalid Piece ID.
+> 
+? White > 
+< info
+> [ERROR] The command was not supplied the correct number of parameters.
+> 
+? White > 
+< info K
+> === Info =========================================
+> [K | ♚k] King
+> Description: Can move one square in any direction.
+> Special: None
+> ==================================================
+> 
+? White > 
+< info N
+> === Info =========================================
+> [N | ♞n] Knight
+> Description: Can jump over other pieces.
+> Special: None
+> ==================================================
+> 
+? White > 
+< info PIPT
+> === Info =========================================
+> [PIPT | ♟pi] Impatient Pawn
+> Mana: XX
+> Description: Can promote before reaching the back rank.
+> Special: <SQUARE> <PIECE_TYPE>
+> ==================================================
+> 
+? White > 
+< info RPNT
+> === Info =========================================
+> [RPNT | ♜rp] Painter Rook
+> Mana: XX
+> Description: When moving using special, it paints all squares in its path in the color of its start-game square.
+> Special: <SQUARE> <TARGET_SQUARE>
+> ==================================================
+> 
+? White > 
+< info BCLR
+> === Info =========================================
+> [BCLR | ♝bc] Color Blind Bishop
+> Mana: 03
+> Description: Can use their special to move like a King for one turn.
+> Special: <SQUARE> <TARGET_SQUARE>
+> ==================================================
+> 
+? White > 
+< info QFLP
+> === Info =========================================
+> [QFLP | ♛qf] Flipper Queen
+> Mana: XX
+> Description: When using special can bounce off one wall when moving in a diagonal.
+> Special: <SQUARE> <BOUNCE_SQUARE> <TARGET_SQUARE>
+> ==================================================
+> 
+? White > 
+< info QHNGR
+> === Info =========================================
+> [QHNGR | ♛qh] Hungry Queen
+> Description: Friendly pieces can also be captured.
+> Special: None
+> ==================================================
+> 
+? White > 
+< quit

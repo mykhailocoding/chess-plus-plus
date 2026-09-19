@@ -1,0 +1,41 @@
+auto
+auto
+move h4
+move g5
+special h1 h3
+special g8 g6
+move bh2
+move f4
+move gxh4
+move rg3
+move rg4
+special g3 a3
+special g4 a4
+special g4 f4
+move be3
+move e5
+move bb3
+move bxa3
+move ba4
+move bb4
+move rf5
+move rf4
+special f5
+special f5 i5
+special f5 e5
+special f5 f8
+special f5 a5
+special f5 h5
+special f4 f4 f8
+      special     f4         f8
+move rf5
+move f6
+special f5 d3
+special f5 f1
+move bh3
+move bg3
+special f1 f6
+move rxf6
+prison white
+prison black
+quit

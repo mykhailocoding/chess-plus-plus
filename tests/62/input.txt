@@ -1,0 +1,23 @@
+auto
+auto
+move kf1
+move nf3
+move ng6
+move ne5
+move ng6
+move nh6
+move nxg6
+move kg8
+move hxg6
+move kf1
+move rf8
+move e4
+move rh8
+move e5
+move kg8
+move d5
+move exd5
+move exd6
+prison white
+prison black
+quit

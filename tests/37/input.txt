@@ -1,0 +1,10 @@
+auto
+auto
+draw 44
+draw
+xd
+draw
+no
+draw
+yes
+

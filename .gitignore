@@ -1,0 +1,9 @@
+/build/
+/a2
+/testreport.html
+/valgrind_logs
+/.idea/
+/.vscode/
+/.gdb_history
+/tests/10/out.txt
+/tests/30/what_happened.txt
